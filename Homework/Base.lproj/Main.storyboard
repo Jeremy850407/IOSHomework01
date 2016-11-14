@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--登鸛鵲樓-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -33,6 +33,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="王之渙"/>
+                                <connections>
+                                    <segue destination="mQd-6t-9oQ" kind="show" id="9AB-ZE-ptY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="詩體：五言絕句 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eq5-P1-vNl">
                                 <rect key="frame" x="201" y="176" width="158" height="48"/>
@@ -60,13 +63,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864427566528" blue="0.87708586454391479" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nsD-Ct-9sh"/>
+                    <navigationItem key="navigationItem" title="登鸛鵲樓" id="nsD-Ct-9sh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="468" y="-2371"/>
+            <point key="canvasLocation" x="316" y="-2938"/>
         </scene>
-        <!--Table View Controller-->
+        <!--唐詩-->
         <scene sceneID="cqH-5Q-7mb">
             <objects>
                 <tableViewController id="tVe-mS-mxm" sceneMemberID="viewController">
@@ -101,7 +104,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="csa-BI-Xd9"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="xLE-2v-cqD"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="gnb-MD-CcQ">
@@ -128,7 +131,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="xk1-kI-WWv" kind="show" id="kzh-RO-cLn"/>
+                                            <segue destination="xk1-kI-WWv" kind="show" id="Qgt-S3-66t"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="l3L-dg-B9v">
@@ -155,7 +158,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="qYE-gH-KbQ" kind="show" id="sFJ-uy-aG8"/>
+                                            <segue destination="qYE-gH-KbQ" kind="show" id="P7d-yB-Avc"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="k9y-ra-VbQ">
@@ -182,14 +185,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="qjh-hU-3Qr" kind="show" id="4Aq-Cq-1ge"/>
+                                            <segue destination="qjh-hU-3Qr" kind="show" id="xYW-Gd-Z3s"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="yeU-4f-9KC">
                                         <rect key="frame" x="0.0" y="296" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yeU-4f-9KC" id="WwB-2O-Qzv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="登岳陽樓" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHX-c6-9KL">
@@ -209,14 +212,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="OZ9-XA-VTt" kind="show" id="TkQ-im-gpo"/>
+                                            <segue destination="OZ9-XA-VTt" kind="show" id="jEg-xT-OX6"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="s0B-HH-GHx">
                                         <rect key="frame" x="0.0" y="370" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s0B-HH-GHx" id="wNp-fi-Gt9">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="山居秋暝" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m98-0M-Y8r">
@@ -236,14 +239,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Crh-hv-pQ1" kind="show" id="S4S-W7-xfu"/>
+                                            <segue destination="Crh-hv-pQ1" kind="show" id="jtR-Hq-QQs"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="l7n-5q-Sm8">
                                         <rect key="frame" x="0.0" y="444" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l7n-5q-Sm8" id="doe-wS-QNN">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="送友人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jJS-0e-KWY">
@@ -263,14 +266,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="M37-T6-MKA" kind="show" id="n8O-D6-47Z"/>
+                                            <segue destination="M37-T6-MKA" kind="show" id="OJU-UR-1xv"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="cyc-A1-vs2">
                                         <rect key="frame" x="0.0" y="518" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cyc-A1-vs2" id="etH-Tw-RWg">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="旅夜書懷" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xr2-8e-wTK">
@@ -290,14 +293,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="hOw-7N-ekv" kind="show" id="f9I-G5-BJc"/>
+                                            <segue destination="hOw-7N-ekv" kind="show" id="bOa-RD-AHI"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="1Pb-4w-Kns">
                                         <rect key="frame" x="0.0" y="592" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1Pb-4w-Kns" id="Lhz-7u-qoh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="春望" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hd-dg-JPw">
@@ -317,14 +320,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="Vrr-DQ-xmS" kind="show" id="hWb-Kq-qa5"/>
+                                            <segue destination="Vrr-DQ-xmS" kind="show" id="Yrr-79-u4p"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="Uqd-VA-9Tv">
                                         <rect key="frame" x="0.0" y="666" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Uqd-VA-9Tv" id="Rpm-bV-0wM">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="相思" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkB-nG-1wg">
@@ -344,14 +347,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="8Ef-Cg-3mW" kind="show" id="3QS-mL-G7U"/>
+                                            <segue destination="8Ef-Cg-3mW" kind="show" id="ltw-lW-CoJ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="zbC-HV-aqz">
                                         <rect key="frame" x="0.0" y="740" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zbC-HV-aqz" id="vAD-Un-CTl">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="春曉" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKk-k6-puc">
@@ -371,14 +374,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="uZ4-n2-uJJ" kind="show" id="L7A-T2-8su"/>
+                                            <segue destination="uZ4-n2-uJJ" kind="show" id="llQ-FP-lVQ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="ZRG-r1-UvK">
                                         <rect key="frame" x="0.0" y="814" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZRG-r1-UvK" id="LNj-pV-RYd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雜詩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKR-BO-XCD">
@@ -398,14 +401,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="iaY-tr-HhE" kind="show" id="Cfu-VR-01D"/>
+                                            <segue destination="eQY-an-vJO" kind="show" id="LDh-YH-eka"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="TLv-gb-FLP">
                                         <rect key="frame" x="0.0" y="888" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TLv-gb-FLP" id="RMx-Tq-6rw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="八陣圖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDb-7p-2Xq">
@@ -425,14 +428,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="kyc-5K-edy" kind="show" id="fiZ-wg-wKJ"/>
+                                            <segue destination="kyc-5K-edy" kind="show" id="SeZ-hr-YSp"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="2hQ-es-CHP">
                                         <rect key="frame" x="0.0" y="962" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2hQ-es-CHP" id="ofi-gw-ZzF">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="夜思" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K32-uy-MDO">
@@ -452,14 +455,14 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="h3F-Qq-iLM" kind="show" id="m01-66-M4T"/>
+                                            <segue destination="h3F-Qq-iLM" kind="show" id="RgZ-SX-1NM"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="o9H-bh-Wrc">
                                         <rect key="frame" x="0.0" y="1036" width="375" height="74"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o9H-bh-Wrc" id="xkg-EL-v53">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="74"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="過故人莊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVc-lz-KIE">
@@ -479,7 +482,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="5AN-XE-ka2" kind="show" id="4mq-f0-1g8"/>
+                                            <segue destination="5AN-XE-ka2" kind="show" id="aQ1-H7-fF8"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -490,36 +493,17 @@
                             <outlet property="delegate" destination="tVe-mS-mxm" id="nre-Pw-eli"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="4fZ-U2-5zb"/>
+                    <navigationItem key="navigationItem" title="唐詩" id="4fZ-U2-5zb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NbL-yn-6lC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3024.6376811594205" y="-872.28260869565224"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="TGn-MA-ZME">
-            <objects>
-                <viewController id="9ee-oX-FdJ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TdM-1i-7Go"/>
-                        <viewControllerLayoutGuide type="bottom" id="DHX-jE-oT2"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7IN-Cx-Dv3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="f0N-lI-BWG"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ba1-ca-Bpa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3025" y="545"/>
-        </scene>
         <!--唐詩-->
         <scene sceneID="IoP-Rd-JsA">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kqd-fG-Oz4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="唐詩" id="xnf-cR-Mls"/>
+                    <tabBarItem key="tabBarItem" title="唐詩" image="bookmarks" id="xnf-cR-Mls"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mPc-6Z-LGq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -527,12 +511,43 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="tVe-mS-mxm" kind="relationship" relationship="rootViewController" id="Xr8-be-dt2"/>
+                        <segue destination="tVe-mS-mxm" kind="relationship" relationship="rootViewController" id="7H4-Ff-BPM"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2P4-xb-cHe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1958" y="-872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lpr-sb-Zm5">
+            <objects>
+                <viewController id="Jk2-b6-Uld" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eSg-xG-nUM"/>
+                        <viewControllerLayoutGuide type="bottom" id="yjb-SE-qcU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4I0-NM-dhk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="唐詩十五首" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29l-hb-oZa">
+                                <rect key="frame" x="75" y="56" width="225" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="060106chinese02" translatesAutoresizingMaskIntoConstraints="NO" id="mTw-X1-nlr">
+                                <rect key="frame" x="0.0" y="455" width="375" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ygP-2e-RBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-724" y="-872.11394302848578"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="iAq-aM-CZo">
@@ -553,11 +568,11 @@
             </objects>
             <point key="canvasLocation" x="770" y="-645"/>
         </scene>
-        <!--作者-->
+        <!--詩人-->
         <scene sceneID="F9L-Pu-8O1">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3yR-ct-hob" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="作者" id="9mL-6O-lL3"/>
+                    <tabBarItem key="tabBarItem" title="詩人" image="contacts" id="9mL-6O-lL3"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JvF-Hp-Qih">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -565,42 +580,180 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="v6J-1D-SdS" kind="show" id="fET-Eo-kvU"/>
+                        <segue destination="v6J-1D-SdS" kind="relationship" relationship="rootViewController" id="axZ-vm-c0S"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="09J-3E-9fM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1957.5999999999999" y="-135.38230884557723"/>
         </scene>
-        <!--Table View Controller-->
+        <!--王之渙-->
+        <scene sceneID="joS-oF-YaZ">
+            <objects>
+                <viewController id="mQd-6t-9oQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="can-w2-oUM"/>
+                        <viewControllerLayoutGuide type="bottom" id="oMm-6U-43N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="M43-GF-tcu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zBc-mi-GWe">
+                                <rect key="frame" x="44" y="155" width="85" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="并 州 人 。 工 詩 ， 文 名 動 一 時 。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EF4-bk-XOc">
+                                <rect key="frame" x="55" y="229" width="264" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="王之渙" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIQ-9f-jkN">
+                                <rect key="frame" x="126" y="64" width="122" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="王之渙" id="0Qb-Pa-xTb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y11-t5-QYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2040" y="979"/>
+        </scene>
+        <!--詩人-->
         <scene sceneID="8xW-Ge-8lq">
             <objects>
                 <tableViewController id="v6J-1D-SdS" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uv6-KT-CiE">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uv6-KT-CiE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dTy-HZ-XAC">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dTy-HZ-XAC" id="RQG-Mg-Xg7">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection id="DYH-be-4NP">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="dTy-HZ-XAC">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dTy-HZ-XAC" id="RQG-Mg-Xg7">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="王之渙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bhl-qK-MZQ">
+                                                    <rect key="frame" x="23" y="7" width="77" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="mQd-6t-9oQ" kind="show" id="Anh-gi-iBO"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="n8Z-5W-IVI">
+                                        <rect key="frame" x="0.0" y="47" width="375" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="n8Z-5W-IVI" id="7gi-dl-Jyr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="王維" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbn-CL-Dji">
+                                                    <rect key="frame" x="23" y="7" width="77" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="4KZ-nj-gFb" kind="show" id="0iK-r3-rqY"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="BhY-sM-Gjh">
+                                        <rect key="frame" x="0.0" y="94" width="375" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BhY-sM-Gjh" id="bxP-07-SAw">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="李白" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4b-n1-HpS">
+                                                    <rect key="frame" x="23" y="7" width="77" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="es3-7Y-Nwn" kind="show" id="wao-eK-a0F"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="eku-ci-ts1">
+                                        <rect key="frame" x="0.0" y="141" width="375" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eku-ci-ts1" id="uES-fO-jP2">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杜甫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nL-bx-0J6">
+                                                    <rect key="frame" x="23" y="7" width="77" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ol0-Ch-Mg0" kind="show" id="giu-ps-a3L"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="47" id="eXZ-8a-7u3">
+                                        <rect key="frame" x="0.0" y="188" width="375" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eXZ-8a-7u3" id="X1h-gB-e51">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="47"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="孟浩然" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SoV-sW-NHi">
+                                                    <rect key="frame" x="23" y="7" width="77" height="33"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="a7R-FM-gwG" kind="show" id="I4S-cv-MbH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="v6J-1D-SdS" id="9Ta-6f-tbZ"/>
                             <outlet property="delegate" destination="v6J-1D-SdS" id="PBH-2P-rcF"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="詩人" id="Lxd-MN-XjI"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZKL-lt-Hqz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3025" y="-136"/>
+            <point key="canvasLocation" x="3024.8000000000002" y="-136.28185907046478"/>
         </scene>
-        <!--View Controller-->
+        <!--終南別業-->
         <scene sceneID="iNi-2M-jmQ">
             <objects>
                 <viewController id="xk1-kI-WWv" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -631,6 +784,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="王維"/>
+                                <connections>
+                                    <segue destination="4KZ-nj-gFb" kind="show" id="mzh-4h-UkF"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3L5-Ed-lDB">
                                 <rect key="frame" x="30" y="307" width="315" height="207"/>
@@ -653,13 +809,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="b8Q-oN-KnG"/>
+                    <navigationItem key="navigationItem" title="終南別業" id="b8Q-oN-KnG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V0t-Sb-drj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1255" y="-2372"/>
+            <point key="canvasLocation" x="1100" y="-2940"/>
         </scene>
-        <!--View Controller-->
+        <!--春思-->
         <scene sceneID="AOV-Uq-SRg">
             <objects>
                 <viewController id="qYE-gH-KbQ" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -683,6 +839,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="李白"/>
+                                <connections>
+                                    <segue destination="es3-7Y-Nwn" kind="show" id="PKX-bR-xot"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="春思" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgk-l9-1ZW">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -711,13 +870,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zPS-PN-mEt"/>
+                    <navigationItem key="navigationItem" title="春思" id="zPS-PN-mEt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FPx-dq-9a1" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1975" y="-2372"/>
+            <point key="canvasLocation" x="1820" y="-2940"/>
         </scene>
-        <!--View Controller-->
+        <!--贈孟浩然-->
         <scene sceneID="iAu-n9-mYE">
             <objects>
                 <viewController id="qjh-hU-3Qr" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -741,6 +900,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="李白"/>
+                                <connections>
+                                    <segue destination="es3-7Y-Nwn" kind="show" id="odB-FP-OTP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="贈孟浩然" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xjq-To-d4T">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -769,13 +931,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lT7-OH-q1o"/>
+                    <navigationItem key="navigationItem" title="贈孟浩然" id="lT7-OH-q1o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jrb-N6-XDz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2684" y="-2372"/>
+            <point key="canvasLocation" x="2532" y="-2940"/>
         </scene>
-        <!--View Controller-->
+        <!--登岳陽樓-->
         <scene sceneID="zLi-Xa-kwq">
             <objects>
                 <viewController id="OZ9-XA-VTt" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -799,6 +961,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="杜甫"/>
+                                <connections>
+                                    <segue destination="Ol0-Ch-Mg0" kind="show" id="yao-cR-VBz"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="登岳陽樓" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fz3-3K-8nn">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -830,13 +995,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uQP-Zv-RJR"/>
+                    <navigationItem key="navigationItem" title="登岳陽樓" id="uQP-Zv-RJR"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gIz-zJ-SEr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3444" y="-2372"/>
+            <point key="canvasLocation" x="3292" y="-2940"/>
         </scene>
-        <!--View Controller-->
+        <!--山居秋暝-->
         <scene sceneID="9CG-iG-2hH">
             <objects>
                 <viewController id="Crh-hv-pQ1" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -860,6 +1025,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="王維"/>
+                                <connections>
+                                    <segue destination="4KZ-nj-gFb" kind="show" id="MvF-qK-Dmx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="山居秋暝" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfe-C2-TvS">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -891,13 +1059,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Y3I-GC-dcW"/>
+                    <navigationItem key="navigationItem" title="山居秋暝" id="Y3I-GC-dcW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CjY-uN-556" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4343" y="-2372"/>
+            <point key="canvasLocation" x="4188" y="-2940"/>
         </scene>
-        <!--View Controller-->
+        <!--送友人-->
         <scene sceneID="JHX-c3-mV8">
             <objects>
                 <viewController id="M37-T6-MKA" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -921,6 +1089,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="李白"/>
+                                <connections>
+                                    <segue destination="es3-7Y-Nwn" kind="show" id="lD5-jq-HQe"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="送友人" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwI-tQ-BEi">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -949,13 +1120,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="xce-gh-Yds"/>
+                    <navigationItem key="navigationItem" title="送友人" id="xce-gh-Yds"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Swr-sa-D1M" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5089" y="-2372"/>
+            <point key="canvasLocation" x="4937" y="-2940"/>
         </scene>
-        <!--View Controller-->
+        <!--旅夜書懷-->
         <scene sceneID="4cB-aT-Ami">
             <objects>
                 <viewController id="hOw-7N-ekv" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -979,6 +1150,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="杜甫"/>
+                                <connections>
+                                    <segue destination="Ol0-Ch-Mg0" kind="show" id="S3a-zq-u6I"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="旅夜書懷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="77c-Zi-yps">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1007,13 +1181,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kuf-Cn-JaX"/>
+                    <navigationItem key="navigationItem" title="旅夜書懷" id="kuf-Cn-JaX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fe4-mz-Cwi" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="468" y="-1652"/>
+            <point key="canvasLocation" x="5700" y="-2951"/>
         </scene>
-        <!--View Controller-->
+        <!--春望-->
         <scene sceneID="59A-ku-iR0">
             <objects>
                 <viewController id="Vrr-DQ-xmS" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -1037,6 +1211,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="杜甫"/>
+                                <connections>
+                                    <segue destination="Ol0-Ch-Mg0" kind="show" id="oha-hI-2Zq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="春望" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GMh-uW-SZl">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1065,13 +1242,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eUj-ui-AIJ"/>
+                    <navigationItem key="navigationItem" title="春望" id="eUj-ui-AIJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SPb-ae-sew" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1281" y="-1641"/>
+            <point key="canvasLocation" x="6513" y="-2941"/>
         </scene>
-        <!--View Controller-->
+        <!--相思-->
         <scene sceneID="esb-wl-Hr3">
             <objects>
                 <viewController id="8Ef-Cg-3mW" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -1095,6 +1272,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="王維"/>
+                                <connections>
+                                    <segue destination="4KZ-nj-gFb" kind="show" id="oJe-8g-Xb0"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="相思" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQx-3o-Ziu">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1121,13 +1301,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="nyA-Fj-JFp"/>
+                    <navigationItem key="navigationItem" title="相思" id="nyA-Fj-JFp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x20-l7-DTs" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2005.5999999999999" y="-1641.2293853073465"/>
+            <point key="canvasLocation" x="1327" y="-1949"/>
         </scene>
-        <!--View Controller-->
+        <!--春曉-->
         <scene sceneID="jEj-SQ-lB2">
             <objects>
                 <viewController id="uZ4-n2-uJJ" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -1151,6 +1331,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="孟浩然"/>
+                                <connections>
+                                    <segue destination="a7R-FM-gwG" kind="show" id="qIZ-Wp-DxR"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="春曉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7e-Gf-tPm">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1177,69 +1360,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="QsQ-X5-J86"/>
+                    <navigationItem key="navigationItem" title="春曉" id="QsQ-X5-J86"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vkt-tl-arS" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2764" y="-1641"/>
+            <point key="canvasLocation" x="2092" y="-1949"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="nds-O6-S4h">
-            <objects>
-                <viewController id="iaY-tr-HhE" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OvK-uv-BvS"/>
-                        <viewControllerLayoutGuide type="bottom" id="gTK-Ed-OVS"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ujS-oB-9Hz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="作者：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZTK-8I-2A4">
-                                <rect key="frame" x="33" y="176" width="65" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcO-Xq-023">
-                                <rect key="frame" x="92" y="181" width="71" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="李白"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雜詩" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53N-57-gav">
-                                <rect key="frame" x="92" y="64" width="190" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="詩體：五言絕句" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aap-Oe-G6G">
-                                <rect key="frame" x="201" y="176" width="158" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tbL-t7-ZWf">
-                                <rect key="frame" x="121" y="310" width="178" height="207"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">君 自 故 鄉 來 ， 	 應 知 故 鄉 事 。
- 來 日 綺 窗 前 ，	  寒 梅 著 花 未 ？</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="MVT-cm-ZIj"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="daX-rT-45G" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3487" y="-1641"/>
-        </scene>
-        <!--View Controller-->
+        <!--八陣圖-->
         <scene sceneID="61a-gv-6JW">
             <objects>
                 <viewController id="kyc-5K-edy" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -1263,6 +1390,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="杜甫"/>
+                                <connections>
+                                    <segue destination="Ol0-Ch-Mg0" kind="show" id="Dxk-RB-lGP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="八陣圖" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRd-1U-FdZ">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1289,13 +1419,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="NHx-NZ-2LQ"/>
+                    <navigationItem key="navigationItem" title="八陣圖" id="NHx-NZ-2LQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZrN-1y-SGR" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4286" y="-1641"/>
+            <point key="canvasLocation" x="3607" y="-1949"/>
         </scene>
-        <!--View Controller-->
+        <!--夜思-->
         <scene sceneID="i05-53-RGd">
             <objects>
                 <viewController id="h3F-Qq-iLM" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -1319,6 +1449,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="李白"/>
+                                <connections>
+                                    <segue destination="es3-7Y-Nwn" kind="show" id="9Uw-v3-v2B"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="夜思" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E9X-an-v1l">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1345,13 +1478,13 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="c6i-EK-Ka3"/>
+                    <navigationItem key="navigationItem" title="夜思" id="c6i-EK-Ka3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wNc-mG-Qgy" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5089" y="-1641"/>
+            <point key="canvasLocation" x="4412" y="-1949"/>
         </scene>
-        <!--View Controller-->
+        <!--過故人莊-->
         <scene sceneID="cV4-f8-zm5">
             <objects>
                 <viewController id="5AN-XE-ka2" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
@@ -1375,6 +1508,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="孟浩然"/>
+                                <connections>
+                                    <segue destination="a7R-FM-gwG" kind="show" id="vw7-hl-AAD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="過故人莊" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXs-wq-1OD">
                                 <rect key="frame" x="92" y="64" width="190" height="67"/>
@@ -1404,11 +1540,249 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pv3-Bb-pYO"/>
+                    <navigationItem key="navigationItem" title="過故人莊" id="pv3-Bb-pYO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8v5-KB-ciL" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5932" y="-1641"/>
+            <point key="canvasLocation" x="5255" y="-1949"/>
+        </scene>
+        <!--雜詩-->
+        <scene sceneID="57n-b9-Rtx">
+            <objects>
+                <viewController id="eQY-an-vJO" customClass="ViewController" customModule="Homework" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BTV-8j-Tzi"/>
+                        <viewControllerLayoutGuide type="bottom" id="5ZK-3l-afC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IcO-bP-abS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="作者：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLU-VR-DgO">
+                                <rect key="frame" x="33" y="176" width="65" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Sx-8C-aT8">
+                                <rect key="frame" x="92" y="181" width="71" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="王維"/>
+                                <connections>
+                                    <segue destination="4KZ-nj-gFb" kind="show" id="Jxn-ZJ-DXP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雜詩" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFZ-VG-VJw">
+                                <rect key="frame" x="92" y="64" width="190" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="詩體：五言絕句" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70z-0y-CXf">
+                                <rect key="frame" x="201" y="176" width="158" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JrG-ND-0Kf">
+                                <rect key="frame" x="121" y="310" width="178" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">君 自 故 鄉 來 ，   應 知 故 鄉 事 。
+ 來 日 綺 窗 前 ，   寒 梅 著 花 未 ？</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雜詩" id="YPf-Sl-3vt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e29-pz-XJV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2836" y="-1949"/>
+        </scene>
+        <!--王維-->
+        <scene sceneID="UPo-Bi-Xr9">
+            <objects>
+                <viewController id="4KZ-nj-gFb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uTC-hz-bQ3"/>
+                        <viewControllerLayoutGuide type="bottom" id="TYG-bP-9bi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0bH-4b-4Li">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xa-5U-pTF">
+                                <rect key="frame" x="44" y="155" width="85" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Mbw-Ak-0Va">
+                                <rect key="frame" x="55" y="229" width="268" height="321"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">字 摩 詰 ， 太 原 人 ， 九 歲 知 屬 辭 ， 與 弟 縉 齊 名 。 開 元 初 ， 擢 進 士 ， 歷 監 察 御 史 ， 累 遷 尚 書 右 丞 ， 世 稱 王 右 丞 。 工 草 隸 ， 善 詩 畫 ， 名 盛 開 元 天 寶 間 ， 時 謂 其 詩 中 有 畫 ， 畫 中 有 詩 。 有 別 墅 在 輞 川 ， 嘗 與 裴 迪 同 游 其 中 ， 賦 詩 為 樂 。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="王維" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vli-s9-jXR">
+                                <rect key="frame" x="128" y="64" width="122" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="王維" id="Dsf-2U-2If"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HcU-3K-2tb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2856" y="979"/>
+        </scene>
+        <!--李白-->
+        <scene sceneID="qQY-eE-0Nk">
+            <objects>
+                <viewController id="es3-7Y-Nwn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vVG-lB-9Zk"/>
+                        <viewControllerLayoutGuide type="bottom" id="RvG-hb-IhZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="970-Lm-srd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5w7-BL-pts">
+                                <rect key="frame" x="44" y="155" width="85" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="字 太 白 ， 又 字 青 蓮 。 賀 知 章 讀 到 李 白 的 詩 ， 讚 嘆 他 是 謫 仙 。 與 杜 甫 齊 名 ， 後 人 稱 為 詩 仙 。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kCQ-Sz-nAW">
+                                <rect key="frame" x="55" y="229" width="268" height="321"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="李白" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mCj-4B-0eM">
+                                <rect key="frame" x="128" y="64" width="122" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="李白" id="irq-Rq-A2v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hX-9j-m2h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3594" y="979"/>
+        </scene>
+        <!--杜甫-->
+        <scene sceneID="LZb-YI-H52">
+            <objects>
+                <viewController id="Ol0-Ch-Mg0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3Ei-ML-2Gu"/>
+                        <viewControllerLayoutGuide type="bottom" id="CJa-qq-hyN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1U5-vF-5rs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIV-rq-lAp">
+                                <rect key="frame" x="44" y="155" width="85" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ct9-RR-7eo">
+                                <rect key="frame" x="55" y="229" width="268" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">字 子 美 ， 襄 陽 人 。 審 言 從 孫 。 居 杜 陵 ， 自 稱 杜 陵 布 衣 。 少 貧 ， 舉 進 士 不 第 。 玄 宗 時 ， 以 獻 賦 得 待 制 集 賢 院 ， 肅 宗 時 為 右 拾 遺 ， 因 事 被 黜 ； 尋 起 工 部 員 外 郎 。 大 曆 中 遊 耒 陽 ， 一 夕 大 醉 卒 。 甫 極 群 書 ， 善 為 詩 歌 ， 涵 渾 汪 洋 ， 千 態 萬 狀 。 詩 人 以 別 杜 牧 ， 稱 為 老 杜 。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杜甫" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O88-up-6fF">
+                                <rect key="frame" x="126" y="72" width="122" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="杜甫" id="dbF-ea-d2c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AGT-WZ-efR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4338" y="979"/>
+        </scene>
+        <!--孟浩然-->
+        <scene sceneID="Rch-Zl-q2v">
+            <objects>
+                <viewController id="a7R-FM-gwG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Un-Pi-FKK"/>
+                        <viewControllerLayoutGuide type="bottom" id="5uZ-8G-wfF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WfQ-PG-DCC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="簡介：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aq6-rj-Jpm">
+                                <rect key="frame" x="44" y="155" width="85" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tpY-re-1aw">
+                                <rect key="frame" x="55" y="229" width="268" height="330"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">本 名 浩 ， 字 浩 然 ， 襄 陽 人 ， 年 輕 時 隱 居 在 湖 北 省 襄 陽 縣 的 鹿 門 山 ， 一 直 到 四 十 多 歲 才 到 京 城 ， 希 望 能 有 發 展 ， 卻 因 為 〈 歲 暮 歸 南 山 〉 詩 ： 「 不 才 明 主 棄 ， 多 病 故 人 疏 」 的 句 子 ， 無 意 中 觸 怒 了 唐 明 皇 ， 只 好 再 黯 然 退 隱 。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="孟浩然" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mwv-FM-D0I">
+                                <rect key="frame" x="126" y="64" width="122" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99807864430000004" blue="0.87708586450000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="孟浩然" id="aAI-3D-ZkP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oH2-Kp-rG3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5131" y="979"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="060106chinese02" width="1024" height="768"/>
+        <image name="bookmarks" width="32" height="32"/>
+        <image name="contacts" width="32" height="32"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wao-eK-a0F"/>
+        <segue reference="giu-ps-a3L"/>
+        <segue reference="Anh-gi-iBO"/>
+        <segue reference="0iK-r3-rqY"/>
+        <segue reference="I4S-cv-MbH"/>
+    </inferredMetricsTieBreakers>
 </document>

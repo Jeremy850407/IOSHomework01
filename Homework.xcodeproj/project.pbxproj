@@ -297,6 +297,7 @@
 				40A4203A1DD9A976001C1354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
